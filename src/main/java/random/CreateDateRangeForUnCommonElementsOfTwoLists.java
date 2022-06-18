@@ -7,8 +7,8 @@ import java.util.List;
 /**
  * For e.g.
  * if startDate is 2020-01-01, I have considered it as 1
- * continuousDateRangeList= {1,2,3,4,5,6,7,8,9,10},   userAvailabilitySortedDateList   {1,3,4,6}
- * O/p: dateRange: {2,2},{5,5},{7,10}
+ * I/P: continuous date range list= {1,2,3,4,5,6,7,8,9,10},   noncontiguous list   {1,3,4,6}
+ * O/P: dateRange: {2,2},{5,5},{7,10}
  *
  */
 public class CreateDateRangeForUnCommonElementsOfTwoLists {

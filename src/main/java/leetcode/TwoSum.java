@@ -30,6 +30,10 @@ public class TwoSum {
             sum = nums[first] + nums[last];
            if(sum ==target){
                return new int[]{first,last};
+           } else if(sum< target){
+               first++;
+           } else{
+               last--;
            }
 
        }

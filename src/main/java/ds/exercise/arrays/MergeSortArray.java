@@ -1,4 +1,4 @@
-package ds.exercise;
+package ds.exercise.arrays;
 
 import java.util.Scanner;
 
